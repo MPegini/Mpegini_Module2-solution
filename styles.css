@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+#container {
+    display: flex;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#chicken {
+    background-color: darkgray;
+    width: 30%;
+    min-height: 200px;
+    margin: 20px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.frango {
+    border: solid black 2px;
+    width: 120px;
+    height: 30px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+#beef {
+    background-color: darkgray;
+    width: 30%;
+    min-height: 200px;
+    margin: 20px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.carne {
+    border: solid black 2px;
+    width: 120px;
+    height: 30px;
+    background-color:brown;
+    position: relative;
+}
+
+#sushi {
+    background-color: darkgrey;
+    width: 30%;
+    min-height: 200px;
+    margin: 20px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.peixe {
+    border: solid black 2px;
+    width: 120px;
+    height: 30px;
+    background-color:khaki;
+    position: relative;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+    #chicken {
+        display: inline-block;
+        width: 45%;
+    }
+
+    #beef {
+        display: inline-block;
+        width: 45%;
+    }
+
+    #sushi {
+        width: 100%;
+        
+    }
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+
+    #chicken {
+        width: 100%;
+    }
+
+    #beef {
+        width: 100%;
+    }
+
+    #sushi {
+        width: 100%;
+        
+    }
+}
