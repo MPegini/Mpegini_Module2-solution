@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+html{
+   height: 100%;
+}
+
 body {
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
+    min-height: 100%;
 }
 
 h1 {
@@ -32,7 +37,7 @@ p {
 }
 
 #chicken {
-    background-color: darkgray;
+    background-color: rgb(161, 161, 161);
     width: 30%;
     min-height: 200px;
     margin: 20px;
@@ -52,7 +57,7 @@ p {
 }
 
 #beef {
-    background-color: darkgray;
+    background-color: rgb(161, 161, 161);
     width: 30%;
     min-height: 200px;
     margin: 20px;
@@ -72,7 +77,7 @@ p {
 }
 
 #sushi {
-    background-color: darkgrey;
+    background-color: rgb(161, 161, 161);
     width: 30%;
     min-height: 200px;
     margin: 20px;
